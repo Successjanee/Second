@@ -1,0 +1,98 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+html {
+ font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+ background-image: url(../images/To-do\ background2.jpeg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding: 35px;
+ display: flex;
+}
+
+.left {
+ border: 2px solid whitesmoke;
+ border-radius: 3px;
+ background-color: white;
+ padding: 12px;
+ align-items: center;
+ justify-items: center;
+ text-align: center;
+ display: flex;
+ flex-flow: column nowrap;
+ width: 30%;
+ height: 280px;
+ position: relative;
+}
+
+.input {
+ width: 150px;
+ height: 30px;
+ padding: 3px;
+ color: #c2c0c0;
+}
+
+.textarea {
+ padding: 3px;
+ color: #c3c0c0;
+ width: 150px;
+}
+
+.Save {
+ width: 150px;
+ padding: 7px;
+ background-color: rgb(22, 146, 22);
+ border: 1px solid green;
+ border-radius: 3px;
+ color: whitesmoke;
+}
+
+.right {
+ padding: 18px;
+ margin-top: 0;
+ width: 70%;
+}
+
+.one {
+ border-bottom: 1px solid white;
+ color: whitesmoke;
+ padding: 6px;
+}
+
+.two {
+ border: 2px solid white;
+ padding: 6px;
+ color: rgba(44, 43, 43, 0.824);
+ background-color: white;
+ border-radius: 3px;
+ margin-top: 10px;
+}
+
+.three {
+ border: 2px solid white;
+ padding: 6px;
+ color: rgba(44, 43, 43, 0.824);
+ background-color: white;
+ border-radius: 3px;
+ margin-top: 10px;
+}
+
+.delete {
+ background-color: brown;
+ width: 10px;
+ height: 10px;
+ padding: 5px;
+ color: white;
+ border: 2px solid brown;
+ border-radius: 3px;
+}
+
+.delete:hover {
+ cursor: pointer;
+}
