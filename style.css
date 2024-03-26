@@ -62,37 +62,43 @@ body {
 .one {
  border-bottom: 1px solid white;
  color: whitesmoke;
- padding: 6px;
+ padding: 20px;
+ display: flex;
+ justify-content: space-between;
 }
 
 .two {
  border: 2px solid white;
- padding: 6px;
+ padding: 15px;
  color: rgba(44, 43, 43, 0.824);
  background-color: white;
  border-radius: 3px;
  margin-top: 10px;
+ display: flex;
+ justify-content: space-between;
 }
 
 .three {
  border: 2px solid white;
- padding: 6px;
+ padding: 15px;
  color: rgba(44, 43, 43, 0.824);
  background-color: white;
  border-radius: 3px;
  margin-top: 10px;
+ display: flex;
+ justify-content: space-between;
 }
 
-.delete {
+.fa-solid.fa-xmark {
  background-color: brown;
- width: 10px;
- height: 10px;
+ width: 25px;
+ height: 28px;
  padding: 5px;
  color: white;
  border: 2px solid brown;
  border-radius: 3px;
 }
 
-.delete:hover {
+.fa-solid.fa-xmark:hover {
  cursor: pointer;
 }
