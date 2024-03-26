@@ -32,7 +32,7 @@ body {
 }
 
 .input {
- width: 150px;
+ width: 180px;
  height: 30px;
  padding: 3px;
  color: #c2c0c0;
@@ -41,11 +41,11 @@ body {
 .textarea {
  padding: 3px;
  color: #c3c0c0;
- width: 150px;
+ width: 180px;
 }
 
 .Save {
- width: 150px;
+ width: 180px;
  padding: 7px;
  background-color: rgb(22, 146, 22);
  border: 1px solid green;
@@ -101,4 +101,32 @@ body {
 
 .fa-solid.fa-xmark:hover {
  cursor: pointer;
+}
+
+@media screen and (min-width: 450px) {
+ .left {
+  min-width: 200px;
+  max-width: 250px;
+ }
+}
+
+@media screen and (min-width: 768px) {
+ .left {
+  min-width: 200px;
+  max-width: 250px;
+ }
+}
+
+@media screen and (min-width: 1028px) {
+ .left {
+  min-width: 200px;
+  max-width: 300px;
+ }
+}
+
+@media screen and (min-width: 1228px) {
+ .left {
+  min-width: 200px;
+  max-width: 300px;
+ }
 }
